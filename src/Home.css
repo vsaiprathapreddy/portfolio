@@ -1,0 +1,62 @@
+.left-side-content {
+    background-color: rgb(166, 166, 166);
+    height: 100vh;
+    /* width: 330px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.all-sections {
+  margin-top: 50px;
+}
+
+.Title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-size: large; */
+  
+  
+}
+.Icons{
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+    flex-direction:row;
+    margin-bottom: 50px;
+}
+
+.Icons a {
+  color: #262626;
+}
+
+.is-active {
+  background-color: #262626 !important;
+  color: #262626;
+   border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.details{
+    color:#a6a6a6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.button-left{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 30px;
+  margin-left: 10px;
+  
+}
